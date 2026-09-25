@@ -96,11 +96,3 @@ Use `--benchmark screen560` for checkpoint/seed sensitivity and `--benchmark ori
 Episode pairing uses `(suite, task_id, episode_idx)`. Overall success pools all episodes; off-target change averages the six non-target dimension changes. Confidence intervals resample the 40 source-task families, retaining their complete perturbation sets and paired base/tuned outcomes. They are pointwise intervals for fixed checkpoints, not training-seed uncertainty.
 
 The release does not contain training images, model weights, optimizer checkpoints, raw machine logs, private job controllers, or experiments absent from the paper. Obtain upstream data and weights under their respective terms. [The paper map](docs/paper_map.md) lists the exact included comparisons; [the schema](docs/data.md) describes all data fields.
-
-## Validation and release status
-
-The bundled outcomes have been checked for unique episode keys, expected counts and success totals. Available SQLite recordings were cross-checked against aggregate results before export. The ten main Camera-view/Sensor-noise CI tables reproduce the existing analysis numerically.
-
-The portable launchers package the experiment code together with local syntax, configuration and data tests. Before allocating a full run, we recommend a short training/save/resume/merge and rollout smoke test on your machine.
-
-Author identities, private hosts, local source paths, account metadata and raw session IDs are excluded. Newly authored benchmark code and associated documentation use the [MIT License](LICENSE), with anonymous contributor attribution. Third-party code retains its original license and attribution; see [license scope and notices](LICENSE.md).
