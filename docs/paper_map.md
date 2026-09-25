@@ -20,14 +20,3 @@ This package follows the accompanying 22-page manuscript. It does not collect ev
 | Figures 9–10: qualitative trajectories | `qualitative/cases.json`, four videos, `analysis/plot_qualitative.py` |
 
 `data/catalog.json` is the definitive run inventory. Each entry links a public run ID to one normalized outcome file and source checksums. Paths from the private source workspace are not distributed.
-
-## Deliberately excluded
-
-- Full-rank visual tuning, rank-16 runs, old full-rank connector settings, and unused Noise-only scope runs.
-- Reduced DELTA coefficients, including later screening/full evaluations not used in this manuscript.
-- Original-LIBERO Mixed runs and later repeat evaluations not used in Table 8.
-- Additional seed experiments for models not included in Table 13.
-- Unused feature-drift experiments, unrelated architecture controls, failed/interrupted runs, private scheduling and machine monitoring.
-- Paper source backups, reviews, previous drafts, and the PDF itself.
-
-Conceptual overview/architecture illustrations are not experimental data and are not needed to recompute results. Result plotting code is supplied; its portable layout need not be pixel-identical to the typeset manuscript.
