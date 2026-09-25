@@ -1,0 +1,3379 @@
+{
+  "format": "checkpoint-curve-screen-v1",
+  "seed": 7,
+  "selection_seed": 20260917,
+  "training_split": "camera_only",
+  "steps": [
+    0,
+    2000,
+    4000,
+    8000,
+    12000
+  ],
+  "remaining_keys": [
+    [
+      "libero_10",
+      7,
+      0
+    ],
+    [
+      "libero_10",
+      9,
+      0
+    ],
+    [
+      "libero_10",
+      35,
+      0
+    ],
+    [
+      "libero_10",
+      54,
+      0
+    ],
+    [
+      "libero_10",
+      91,
+      0
+    ],
+    [
+      "libero_10",
+      92,
+      0
+    ],
+    [
+      "libero_10",
+      124,
+      0
+    ],
+    [
+      "libero_10",
+      131,
+      0
+    ],
+    [
+      "libero_10",
+      139,
+      0
+    ],
+    [
+      "libero_10",
+      140,
+      0
+    ],
+    [
+      "libero_10",
+      148,
+      0
+    ],
+    [
+      "libero_10",
+      154,
+      0
+    ],
+    [
+      "libero_10",
+      169,
+      0
+    ],
+    [
+      "libero_10",
+      190,
+      0
+    ],
+    [
+      "libero_10",
+      197,
+      0
+    ],
+    [
+      "libero_10",
+      232,
+      0
+    ],
+    [
+      "libero_10",
+      246,
+      0
+    ],
+    [
+      "libero_10",
+      273,
+      0
+    ],
+    [
+      "libero_10",
+      286,
+      0
+    ],
+    [
+      "libero_10",
+      287,
+      0
+    ],
+    [
+      "libero_10",
+      296,
+      0
+    ],
+    [
+      "libero_10",
+      302,
+      0
+    ],
+    [
+      "libero_10",
+      337,
+      0
+    ],
+    [
+      "libero_10",
+      360,
+      0
+    ],
+    [
+      "libero_10",
+      372,
+      0
+    ],
+    [
+      "libero_10",
+      393,
+      0
+    ],
+    [
+      "libero_10",
+      419,
+      0
+    ],
+    [
+      "libero_10",
+      425,
+      0
+    ],
+    [
+      "libero_10",
+      474,
+      0
+    ],
+    [
+      "libero_10",
+      486,
+      0
+    ],
+    [
+      "libero_10",
+      510,
+      0
+    ],
+    [
+      "libero_10",
+      517,
+      0
+    ],
+    [
+      "libero_10",
+      530,
+      0
+    ],
+    [
+      "libero_10",
+      564,
+      0
+    ],
+    [
+      "libero_10",
+      592,
+      0
+    ],
+    [
+      "libero_10",
+      593,
+      0
+    ],
+    [
+      "libero_10",
+      623,
+      0
+    ],
+    [
+      "libero_10",
+      638,
+      0
+    ],
+    [
+      "libero_10",
+      657,
+      0
+    ],
+    [
+      "libero_10",
+      679,
+      0
+    ],
+    [
+      "libero_10",
+      683,
+      0
+    ],
+    [
+      "libero_10",
+      701,
+      0
+    ],
+    [
+      "libero_10",
+      731,
+      0
+    ],
+    [
+      "libero_10",
+      732,
+      0
+    ],
+    [
+      "libero_10",
+      751,
+      0
+    ],
+    [
+      "libero_10",
+      754,
+      0
+    ],
+    [
+      "libero_10",
+      790,
+      0
+    ],
+    [
+      "libero_10",
+      818,
+      0
+    ],
+    [
+      "libero_10",
+      857,
+      0
+    ],
+    [
+      "libero_10",
+      869,
+      0
+    ],
+    [
+      "libero_10",
+      887,
+      0
+    ],
+    [
+      "libero_10",
+      896,
+      0
+    ],
+    [
+      "libero_10",
+      949,
+      0
+    ],
+    [
+      "libero_10",
+      959,
+      0
+    ],
+    [
+      "libero_10",
+      981,
+      0
+    ],
+    [
+      "libero_10",
+      1009,
+      0
+    ],
+    [
+      "libero_10",
+      1056,
+      0
+    ],
+    [
+      "libero_10",
+      1060,
+      0
+    ],
+    [
+      "libero_10",
+      1061,
+      0
+    ],
+    [
+      "libero_10",
+      1092,
+      0
+    ],
+    [
+      "libero_10",
+      1129,
+      0
+    ],
+    [
+      "libero_10",
+      1136,
+      0
+    ],
+    [
+      "libero_10",
+      1153,
+      0
+    ],
+    [
+      "libero_10",
+      1154,
+      0
+    ],
+    [
+      "libero_10",
+      1192,
+      0
+    ],
+    [
+      "libero_10",
+      1194,
+      0
+    ],
+    [
+      "libero_10",
+      1212,
+      0
+    ],
+    [
+      "libero_10",
+      1248,
+      0
+    ],
+    [
+      "libero_10",
+      1270,
+      0
+    ],
+    [
+      "libero_10",
+      1282,
+      0
+    ],
+    [
+      "libero_10",
+      1304,
+      0
+    ],
+    [
+      "libero_10",
+      1308,
+      0
+    ],
+    [
+      "libero_10",
+      1328,
+      0
+    ],
+    [
+      "libero_10",
+      1334,
+      0
+    ],
+    [
+      "libero_10",
+      1375,
+      0
+    ],
+    [
+      "libero_10",
+      1395,
+      0
+    ],
+    [
+      "libero_10",
+      1424,
+      0
+    ],
+    [
+      "libero_10",
+      1432,
+      0
+    ],
+    [
+      "libero_10",
+      1454,
+      0
+    ],
+    [
+      "libero_10",
+      1478,
+      0
+    ],
+    [
+      "libero_10",
+      1491,
+      0
+    ],
+    [
+      "libero_10",
+      1513,
+      0
+    ],
+    [
+      "libero_10",
+      1546,
+      0
+    ],
+    [
+      "libero_10",
+      1550,
+      0
+    ],
+    [
+      "libero_10",
+      1570,
+      0
+    ],
+    [
+      "libero_10",
+      1581,
+      0
+    ],
+    [
+      "libero_10",
+      1631,
+      0
+    ],
+    [
+      "libero_10",
+      1642,
+      0
+    ],
+    [
+      "libero_10",
+      1684,
+      0
+    ],
+    [
+      "libero_10",
+      1708,
+      0
+    ],
+    [
+      "libero_10",
+      1737,
+      0
+    ],
+    [
+      "libero_10",
+      1744,
+      0
+    ],
+    [
+      "libero_10",
+      1763,
+      0
+    ],
+    [
+      "libero_10",
+      1781,
+      0
+    ],
+    [
+      "libero_10",
+      1809,
+      0
+    ],
+    [
+      "libero_10",
+      1833,
+      0
+    ],
+    [
+      "libero_10",
+      1856,
+      0
+    ],
+    [
+      "libero_10",
+      1881,
+      0
+    ],
+    [
+      "libero_10",
+      1908,
+      0
+    ],
+    [
+      "libero_10",
+      1926,
+      0
+    ],
+    [
+      "libero_10",
+      1939,
+      0
+    ],
+    [
+      "libero_10",
+      1956,
+      0
+    ],
+    [
+      "libero_10",
+      1960,
+      0
+    ],
+    [
+      "libero_10",
+      1980,
+      0
+    ],
+    [
+      "libero_10",
+      1998,
+      0
+    ],
+    [
+      "libero_10",
+      2010,
+      0
+    ],
+    [
+      "libero_10",
+      2024,
+      0
+    ],
+    [
+      "libero_10",
+      2040,
+      0
+    ],
+    [
+      "libero_10",
+      2054,
+      0
+    ],
+    [
+      "libero_10",
+      2055,
+      0
+    ],
+    [
+      "libero_10",
+      2059,
+      0
+    ],
+    [
+      "libero_10",
+      2084,
+      0
+    ],
+    [
+      "libero_10",
+      2117,
+      0
+    ],
+    [
+      "libero_10",
+      2119,
+      0
+    ],
+    [
+      "libero_10",
+      2127,
+      0
+    ],
+    [
+      "libero_10",
+      2141,
+      0
+    ],
+    [
+      "libero_10",
+      2175,
+      0
+    ],
+    [
+      "libero_10",
+      2181,
+      0
+    ],
+    [
+      "libero_10",
+      2217,
+      0
+    ],
+    [
+      "libero_10",
+      2233,
+      0
+    ],
+    [
+      "libero_10",
+      2272,
+      0
+    ],
+    [
+      "libero_10",
+      2277,
+      0
+    ],
+    [
+      "libero_10",
+      2293,
+      0
+    ],
+    [
+      "libero_10",
+      2300,
+      0
+    ],
+    [
+      "libero_10",
+      2341,
+      0
+    ],
+    [
+      "libero_10",
+      2366,
+      0
+    ],
+    [
+      "libero_10",
+      2379,
+      0
+    ],
+    [
+      "libero_10",
+      2393,
+      0
+    ],
+    [
+      "libero_10",
+      2398,
+      0
+    ],
+    [
+      "libero_10",
+      2400,
+      0
+    ],
+    [
+      "libero_10",
+      2405,
+      0
+    ],
+    [
+      "libero_10",
+      2407,
+      0
+    ],
+    [
+      "libero_10",
+      2421,
+      0
+    ],
+    [
+      "libero_10",
+      2422,
+      0
+    ],
+    [
+      "libero_10",
+      2453,
+      0
+    ],
+    [
+      "libero_10",
+      2455,
+      0
+    ],
+    [
+      "libero_10",
+      2469,
+      0
+    ],
+    [
+      "libero_10",
+      2485,
+      0
+    ],
+    [
+      "libero_10",
+      2498,
+      0
+    ],
+    [
+      "libero_10",
+      2507,
+      0
+    ],
+    [
+      "libero_goal",
+      5,
+      0
+    ],
+    [
+      "libero_goal",
+      6,
+      0
+    ],
+    [
+      "libero_goal",
+      42,
+      0
+    ],
+    [
+      "libero_goal",
+      43,
+      0
+    ],
+    [
+      "libero_goal",
+      76,
+      0
+    ],
+    [
+      "libero_goal",
+      90,
+      0
+    ],
+    [
+      "libero_goal",
+      108,
+      0
+    ],
+    [
+      "libero_goal",
+      126,
+      0
+    ],
+    [
+      "libero_goal",
+      133,
+      0
+    ],
+    [
+      "libero_goal",
+      136,
+      0
+    ],
+    [
+      "libero_goal",
+      141,
+      0
+    ],
+    [
+      "libero_goal",
+      144,
+      0
+    ],
+    [
+      "libero_goal",
+      161,
+      0
+    ],
+    [
+      "libero_goal",
+      180,
+      0
+    ],
+    [
+      "libero_goal",
+      201,
+      0
+    ],
+    [
+      "libero_goal",
+      222,
+      0
+    ],
+    [
+      "libero_goal",
+      255,
+      0
+    ],
+    [
+      "libero_goal",
+      268,
+      0
+    ],
+    [
+      "libero_goal",
+      270,
+      0
+    ],
+    [
+      "libero_goal",
+      276,
+      0
+    ],
+    [
+      "libero_goal",
+      289,
+      0
+    ],
+    [
+      "libero_goal",
+      315,
+      0
+    ],
+    [
+      "libero_goal",
+      337,
+      0
+    ],
+    [
+      "libero_goal",
+      357,
+      0
+    ],
+    [
+      "libero_goal",
+      381,
+      0
+    ],
+    [
+      "libero_goal",
+      388,
+      0
+    ],
+    [
+      "libero_goal",
+      406,
+      0
+    ],
+    [
+      "libero_goal",
+      435,
+      0
+    ],
+    [
+      "libero_goal",
+      478,
+      0
+    ],
+    [
+      "libero_goal",
+      484,
+      0
+    ],
+    [
+      "libero_goal",
+      510,
+      0
+    ],
+    [
+      "libero_goal",
+      519,
+      0
+    ],
+    [
+      "libero_goal",
+      531,
+      0
+    ],
+    [
+      "libero_goal",
+      560,
+      0
+    ],
+    [
+      "libero_goal",
+      589,
+      0
+    ],
+    [
+      "libero_goal",
+      607,
+      0
+    ],
+    [
+      "libero_goal",
+      625,
+      0
+    ],
+    [
+      "libero_goal",
+      644,
+      0
+    ],
+    [
+      "libero_goal",
+      651,
+      0
+    ],
+    [
+      "libero_goal",
+      653,
+      0
+    ],
+    [
+      "libero_goal",
+      695,
+      0
+    ],
+    [
+      "libero_goal",
+      701,
+      0
+    ],
+    [
+      "libero_goal",
+      715,
+      0
+    ],
+    [
+      "libero_goal",
+      738,
+      0
+    ],
+    [
+      "libero_goal",
+      752,
+      0
+    ],
+    [
+      "libero_goal",
+      767,
+      0
+    ],
+    [
+      "libero_goal",
+      809,
+      0
+    ],
+    [
+      "libero_goal",
+      811,
+      0
+    ],
+    [
+      "libero_goal",
+      867,
+      0
+    ],
+    [
+      "libero_goal",
+      880,
+      0
+    ],
+    [
+      "libero_goal",
+      885,
+      0
+    ],
+    [
+      "libero_goal",
+      915,
+      0
+    ],
+    [
+      "libero_goal",
+      932,
+      0
+    ],
+    [
+      "libero_goal",
+      966,
+      0
+    ],
+    [
+      "libero_goal",
+      986,
+      0
+    ],
+    [
+      "libero_goal",
+      992,
+      0
+    ],
+    [
+      "libero_goal",
+      1048,
+      0
+    ],
+    [
+      "libero_goal",
+      1051,
+      0
+    ],
+    [
+      "libero_goal",
+      1065,
+      0
+    ],
+    [
+      "libero_goal",
+      1092,
+      0
+    ],
+    [
+      "libero_goal",
+      1127,
+      0
+    ],
+    [
+      "libero_goal",
+      1142,
+      0
+    ],
+    [
+      "libero_goal",
+      1148,
+      0
+    ],
+    [
+      "libero_goal",
+      1162,
+      0
+    ],
+    [
+      "libero_goal",
+      1183,
+      0
+    ],
+    [
+      "libero_goal",
+      1191,
+      0
+    ],
+    [
+      "libero_goal",
+      1235,
+      0
+    ],
+    [
+      "libero_goal",
+      1251,
+      0
+    ],
+    [
+      "libero_goal",
+      1267,
+      0
+    ],
+    [
+      "libero_goal",
+      1292,
+      0
+    ],
+    [
+      "libero_goal",
+      1316,
+      0
+    ],
+    [
+      "libero_goal",
+      1326,
+      0
+    ],
+    [
+      "libero_goal",
+      1338,
+      0
+    ],
+    [
+      "libero_goal",
+      1354,
+      0
+    ],
+    [
+      "libero_goal",
+      1404,
+      0
+    ],
+    [
+      "libero_goal",
+      1421,
+      0
+    ],
+    [
+      "libero_goal",
+      1428,
+      0
+    ],
+    [
+      "libero_goal",
+      1456,
+      0
+    ],
+    [
+      "libero_goal",
+      1461,
+      0
+    ],
+    [
+      "libero_goal",
+      1465,
+      0
+    ],
+    [
+      "libero_goal",
+      1518,
+      0
+    ],
+    [
+      "libero_goal",
+      1522,
+      0
+    ],
+    [
+      "libero_goal",
+      1563,
+      0
+    ],
+    [
+      "libero_goal",
+      1572,
+      0
+    ],
+    [
+      "libero_goal",
+      1584,
+      0
+    ],
+    [
+      "libero_goal",
+      1603,
+      0
+    ],
+    [
+      "libero_goal",
+      1621,
+      0
+    ],
+    [
+      "libero_goal",
+      1651,
+      0
+    ],
+    [
+      "libero_goal",
+      1664,
+      0
+    ],
+    [
+      "libero_goal",
+      1682,
+      0
+    ],
+    [
+      "libero_goal",
+      1717,
+      0
+    ],
+    [
+      "libero_goal",
+      1729,
+      0
+    ],
+    [
+      "libero_goal",
+      1746,
+      0
+    ],
+    [
+      "libero_goal",
+      1773,
+      0
+    ],
+    [
+      "libero_goal",
+      1791,
+      0
+    ],
+    [
+      "libero_goal",
+      1795,
+      0
+    ],
+    [
+      "libero_goal",
+      1819,
+      0
+    ],
+    [
+      "libero_goal",
+      1834,
+      0
+    ],
+    [
+      "libero_goal",
+      1867,
+      0
+    ],
+    [
+      "libero_goal",
+      1885,
+      0
+    ],
+    [
+      "libero_goal",
+      1891,
+      0
+    ],
+    [
+      "libero_goal",
+      1920,
+      0
+    ],
+    [
+      "libero_goal",
+      1942,
+      0
+    ],
+    [
+      "libero_goal",
+      1972,
+      0
+    ],
+    [
+      "libero_goal",
+      2003,
+      0
+    ],
+    [
+      "libero_goal",
+      2011,
+      0
+    ],
+    [
+      "libero_goal",
+      2024,
+      0
+    ],
+    [
+      "libero_goal",
+      2060,
+      0
+    ],
+    [
+      "libero_goal",
+      2068,
+      0
+    ],
+    [
+      "libero_goal",
+      2089,
+      0
+    ],
+    [
+      "libero_goal",
+      2098,
+      0
+    ],
+    [
+      "libero_goal",
+      2115,
+      0
+    ],
+    [
+      "libero_goal",
+      2150,
+      0
+    ],
+    [
+      "libero_goal",
+      2165,
+      0
+    ],
+    [
+      "libero_goal",
+      2175,
+      0
+    ],
+    [
+      "libero_goal",
+      2219,
+      0
+    ],
+    [
+      "libero_goal",
+      2227,
+      0
+    ],
+    [
+      "libero_goal",
+      2238,
+      0
+    ],
+    [
+      "libero_goal",
+      2268,
+      0
+    ],
+    [
+      "libero_goal",
+      2295,
+      0
+    ],
+    [
+      "libero_goal",
+      2324,
+      0
+    ],
+    [
+      "libero_goal",
+      2344,
+      0
+    ],
+    [
+      "libero_goal",
+      2357,
+      0
+    ],
+    [
+      "libero_goal",
+      2401,
+      0
+    ],
+    [
+      "libero_goal",
+      2417,
+      0
+    ],
+    [
+      "libero_goal",
+      2421,
+      0
+    ],
+    [
+      "libero_goal",
+      2447,
+      0
+    ],
+    [
+      "libero_goal",
+      2454,
+      0
+    ],
+    [
+      "libero_goal",
+      2467,
+      0
+    ],
+    [
+      "libero_goal",
+      2468,
+      0
+    ],
+    [
+      "libero_goal",
+      2470,
+      0
+    ],
+    [
+      "libero_goal",
+      2480,
+      0
+    ],
+    [
+      "libero_goal",
+      2490,
+      0
+    ],
+    [
+      "libero_goal",
+      2497,
+      0
+    ],
+    [
+      "libero_goal",
+      2537,
+      0
+    ],
+    [
+      "libero_goal",
+      2540,
+      0
+    ],
+    [
+      "libero_goal",
+      2555,
+      0
+    ],
+    [
+      "libero_goal",
+      2562,
+      0
+    ],
+    [
+      "libero_goal",
+      2585,
+      0
+    ],
+    [
+      "libero_goal",
+      2589,
+      0
+    ],
+    [
+      "libero_object",
+      17,
+      0
+    ],
+    [
+      "libero_object",
+      25,
+      0
+    ],
+    [
+      "libero_object",
+      67,
+      0
+    ],
+    [
+      "libero_object",
+      78,
+      0
+    ],
+    [
+      "libero_object",
+      94,
+      0
+    ],
+    [
+      "libero_object",
+      98,
+      0
+    ],
+    [
+      "libero_object",
+      106,
+      0
+    ],
+    [
+      "libero_object",
+      119,
+      0
+    ],
+    [
+      "libero_object",
+      122,
+      0
+    ],
+    [
+      "libero_object",
+      124,
+      0
+    ],
+    [
+      "libero_object",
+      135,
+      0
+    ],
+    [
+      "libero_object",
+      136,
+      0
+    ],
+    [
+      "libero_object",
+      154,
+      0
+    ],
+    [
+      "libero_object",
+      160,
+      0
+    ],
+    [
+      "libero_object",
+      178,
+      0
+    ],
+    [
+      "libero_object",
+      203,
+      0
+    ],
+    [
+      "libero_object",
+      218,
+      0
+    ],
+    [
+      "libero_object",
+      227,
+      0
+    ],
+    [
+      "libero_object",
+      237,
+      0
+    ],
+    [
+      "libero_object",
+      242,
+      0
+    ],
+    [
+      "libero_object",
+      286,
+      0
+    ],
+    [
+      "libero_object",
+      289,
+      0
+    ],
+    [
+      "libero_object",
+      304,
+      0
+    ],
+    [
+      "libero_object",
+      314,
+      0
+    ],
+    [
+      "libero_object",
+      342,
+      0
+    ],
+    [
+      "libero_object",
+      356,
+      0
+    ],
+    [
+      "libero_object",
+      370,
+      0
+    ],
+    [
+      "libero_object",
+      376,
+      0
+    ],
+    [
+      "libero_object",
+      415,
+      0
+    ],
+    [
+      "libero_object",
+      438,
+      0
+    ],
+    [
+      "libero_object",
+      468,
+      0
+    ],
+    [
+      "libero_object",
+      480,
+      0
+    ],
+    [
+      "libero_object",
+      488,
+      0
+    ],
+    [
+      "libero_object",
+      514,
+      0
+    ],
+    [
+      "libero_object",
+      525,
+      0
+    ],
+    [
+      "libero_object",
+      558,
+      0
+    ],
+    [
+      "libero_object",
+      568,
+      0
+    ],
+    [
+      "libero_object",
+      576,
+      0
+    ],
+    [
+      "libero_object",
+      601,
+      0
+    ],
+    [
+      "libero_object",
+      613,
+      0
+    ],
+    [
+      "libero_object",
+      652,
+      0
+    ],
+    [
+      "libero_object",
+      657,
+      0
+    ],
+    [
+      "libero_object",
+      667,
+      0
+    ],
+    [
+      "libero_object",
+      677,
+      0
+    ],
+    [
+      "libero_object",
+      706,
+      0
+    ],
+    [
+      "libero_object",
+      729,
+      0
+    ],
+    [
+      "libero_object",
+      769,
+      0
+    ],
+    [
+      "libero_object",
+      774,
+      0
+    ],
+    [
+      "libero_object",
+      802,
+      0
+    ],
+    [
+      "libero_object",
+      803,
+      0
+    ],
+    [
+      "libero_object",
+      845,
+      0
+    ],
+    [
+      "libero_object",
+      865,
+      0
+    ],
+    [
+      "libero_object",
+      899,
+      0
+    ],
+    [
+      "libero_object",
+      926,
+      0
+    ],
+    [
+      "libero_object",
+      930,
+      0
+    ],
+    [
+      "libero_object",
+      974,
+      0
+    ],
+    [
+      "libero_object",
+      980,
+      0
+    ],
+    [
+      "libero_object",
+      999,
+      0
+    ],
+    [
+      "libero_object",
+      1022,
+      0
+    ],
+    [
+      "libero_object",
+      1026,
+      0
+    ],
+    [
+      "libero_object",
+      1058,
+      0
+    ],
+    [
+      "libero_object",
+      1062,
+      0
+    ],
+    [
+      "libero_object",
+      1075,
+      0
+    ],
+    [
+      "libero_object",
+      1089,
+      0
+    ],
+    [
+      "libero_object",
+      1108,
+      0
+    ],
+    [
+      "libero_object",
+      1111,
+      0
+    ],
+    [
+      "libero_object",
+      1138,
+      0
+    ],
+    [
+      "libero_object",
+      1142,
+      0
+    ],
+    [
+      "libero_object",
+      1171,
+      0
+    ],
+    [
+      "libero_object",
+      1197,
+      0
+    ],
+    [
+      "libero_object",
+      1198,
+      0
+    ],
+    [
+      "libero_object",
+      1221,
+      0
+    ],
+    [
+      "libero_object",
+      1258,
+      0
+    ],
+    [
+      "libero_object",
+      1261,
+      0
+    ],
+    [
+      "libero_object",
+      1273,
+      0
+    ],
+    [
+      "libero_object",
+      1284,
+      0
+    ],
+    [
+      "libero_object",
+      1307,
+      0
+    ],
+    [
+      "libero_object",
+      1321,
+      0
+    ],
+    [
+      "libero_object",
+      1356,
+      0
+    ],
+    [
+      "libero_object",
+      1368,
+      0
+    ],
+    [
+      "libero_object",
+      1408,
+      0
+    ],
+    [
+      "libero_object",
+      1432,
+      0
+    ],
+    [
+      "libero_object",
+      1465,
+      0
+    ],
+    [
+      "libero_object",
+      1475,
+      0
+    ],
+    [
+      "libero_object",
+      1488,
+      0
+    ],
+    [
+      "libero_object",
+      1494,
+      0
+    ],
+    [
+      "libero_object",
+      1533,
+      0
+    ],
+    [
+      "libero_object",
+      1536,
+      0
+    ],
+    [
+      "libero_object",
+      1570,
+      0
+    ],
+    [
+      "libero_object",
+      1580,
+      0
+    ],
+    [
+      "libero_object",
+      1636,
+      0
+    ],
+    [
+      "libero_object",
+      1640,
+      0
+    ],
+    [
+      "libero_object",
+      1689,
+      0
+    ],
+    [
+      "libero_object",
+      1695,
+      0
+    ],
+    [
+      "libero_object",
+      1701,
+      0
+    ],
+    [
+      "libero_object",
+      1712,
+      0
+    ],
+    [
+      "libero_object",
+      1741,
+      0
+    ],
+    [
+      "libero_object",
+      1769,
+      0
+    ],
+    [
+      "libero_object",
+      1785,
+      0
+    ],
+    [
+      "libero_object",
+      1795,
+      0
+    ],
+    [
+      "libero_object",
+      1832,
+      0
+    ],
+    [
+      "libero_object",
+      1841,
+      0
+    ],
+    [
+      "libero_object",
+      1879,
+      0
+    ],
+    [
+      "libero_object",
+      1899,
+      0
+    ],
+    [
+      "libero_object",
+      1906,
+      0
+    ],
+    [
+      "libero_object",
+      1937,
+      0
+    ],
+    [
+      "libero_object",
+      1972,
+      0
+    ],
+    [
+      "libero_object",
+      1983,
+      0
+    ],
+    [
+      "libero_object",
+      1996,
+      0
+    ],
+    [
+      "libero_object",
+      2008,
+      0
+    ],
+    [
+      "libero_object",
+      2028,
+      0
+    ],
+    [
+      "libero_object",
+      2032,
+      0
+    ],
+    [
+      "libero_object",
+      2057,
+      0
+    ],
+    [
+      "libero_object",
+      2078,
+      0
+    ],
+    [
+      "libero_object",
+      2092,
+      0
+    ],
+    [
+      "libero_object",
+      2124,
+      0
+    ],
+    [
+      "libero_object",
+      2132,
+      0
+    ],
+    [
+      "libero_object",
+      2158,
+      0
+    ],
+    [
+      "libero_object",
+      2173,
+      0
+    ],
+    [
+      "libero_object",
+      2213,
+      0
+    ],
+    [
+      "libero_object",
+      2239,
+      0
+    ],
+    [
+      "libero_object",
+      2250,
+      0
+    ],
+    [
+      "libero_object",
+      2274,
+      0
+    ],
+    [
+      "libero_object",
+      2280,
+      0
+    ],
+    [
+      "libero_object",
+      2329,
+      0
+    ],
+    [
+      "libero_object",
+      2345,
+      0
+    ],
+    [
+      "libero_object",
+      2360,
+      0
+    ],
+    [
+      "libero_object",
+      2378,
+      0
+    ],
+    [
+      "libero_object",
+      2387,
+      0
+    ],
+    [
+      "libero_object",
+      2389,
+      0
+    ],
+    [
+      "libero_object",
+      2392,
+      0
+    ],
+    [
+      "libero_object",
+      2398,
+      0
+    ],
+    [
+      "libero_object",
+      2424,
+      0
+    ],
+    [
+      "libero_object",
+      2425,
+      0
+    ],
+    [
+      "libero_object",
+      2431,
+      0
+    ],
+    [
+      "libero_object",
+      2441,
+      0
+    ],
+    [
+      "libero_object",
+      2486,
+      0
+    ],
+    [
+      "libero_object",
+      2495,
+      0
+    ],
+    [
+      "libero_object",
+      2500,
+      0
+    ],
+    [
+      "libero_object",
+      2509,
+      0
+    ],
+    [
+      "libero_spatial",
+      1,
+      0
+    ],
+    [
+      "libero_spatial",
+      16,
+      0
+    ],
+    [
+      "libero_spatial",
+      36,
+      0
+    ],
+    [
+      "libero_spatial",
+      64,
+      0
+    ],
+    [
+      "libero_spatial",
+      89,
+      0
+    ],
+    [
+      "libero_spatial",
+      95,
+      0
+    ],
+    [
+      "libero_spatial",
+      104,
+      0
+    ],
+    [
+      "libero_spatial",
+      120,
+      0
+    ],
+    [
+      "libero_spatial",
+      125,
+      0
+    ],
+    [
+      "libero_spatial",
+      126,
+      0
+    ],
+    [
+      "libero_spatial",
+      129,
+      0
+    ],
+    [
+      "libero_spatial",
+      133,
+      0
+    ],
+    [
+      "libero_spatial",
+      146,
+      0
+    ],
+    [
+      "libero_spatial",
+      155,
+      0
+    ],
+    [
+      "libero_spatial",
+      175,
+      0
+    ],
+    [
+      "libero_spatial",
+      191,
+      0
+    ],
+    [
+      "libero_spatial",
+      230,
+      0
+    ],
+    [
+      "libero_spatial",
+      231,
+      0
+    ],
+    [
+      "libero_spatial",
+      245,
+      0
+    ],
+    [
+      "libero_spatial",
+      247,
+      0
+    ],
+    [
+      "libero_spatial",
+      276,
+      0
+    ],
+    [
+      "libero_spatial",
+      285,
+      0
+    ],
+    [
+      "libero_spatial",
+      304,
+      0
+    ],
+    [
+      "libero_spatial",
+      323,
+      0
+    ],
+    [
+      "libero_spatial",
+      335,
+      0
+    ],
+    [
+      "libero_spatial",
+      350,
+      0
+    ],
+    [
+      "libero_spatial",
+      368,
+      0
+    ],
+    [
+      "libero_spatial",
+      380,
+      0
+    ],
+    [
+      "libero_spatial",
+      391,
+      0
+    ],
+    [
+      "libero_spatial",
+      421,
+      0
+    ],
+    [
+      "libero_spatial",
+      433,
+      0
+    ],
+    [
+      "libero_spatial",
+      445,
+      0
+    ],
+    [
+      "libero_spatial",
+      477,
+      0
+    ],
+    [
+      "libero_spatial",
+      485,
+      0
+    ],
+    [
+      "libero_spatial",
+      495,
+      0
+    ],
+    [
+      "libero_spatial",
+      527,
+      0
+    ],
+    [
+      "libero_spatial",
+      530,
+      0
+    ],
+    [
+      "libero_spatial",
+      551,
+      0
+    ],
+    [
+      "libero_spatial",
+      597,
+      0
+    ],
+    [
+      "libero_spatial",
+      599,
+      0
+    ],
+    [
+      "libero_spatial",
+      608,
+      0
+    ],
+    [
+      "libero_spatial",
+      611,
+      0
+    ],
+    [
+      "libero_spatial",
+      619,
+      0
+    ],
+    [
+      "libero_spatial",
+      623,
+      0
+    ],
+    [
+      "libero_spatial",
+      651,
+      0
+    ],
+    [
+      "libero_spatial",
+      664,
+      0
+    ],
+    [
+      "libero_spatial",
+      690,
+      0
+    ],
+    [
+      "libero_spatial",
+      726,
+      0
+    ],
+    [
+      "libero_spatial",
+      743,
+      0
+    ],
+    [
+      "libero_spatial",
+      770,
+      0
+    ],
+    [
+      "libero_spatial",
+      789,
+      0
+    ],
+    [
+      "libero_spatial",
+      823,
+      0
+    ],
+    [
+      "libero_spatial",
+      837,
+      0
+    ],
+    [
+      "libero_spatial",
+      853,
+      0
+    ],
+    [
+      "libero_spatial",
+      880,
+      0
+    ],
+    [
+      "libero_spatial",
+      890,
+      0
+    ],
+    [
+      "libero_spatial",
+      917,
+      0
+    ],
+    [
+      "libero_spatial",
+      930,
+      0
+    ],
+    [
+      "libero_spatial",
+      961,
+      0
+    ],
+    [
+      "libero_spatial",
+      968,
+      0
+    ],
+    [
+      "libero_spatial",
+      998,
+      0
+    ],
+    [
+      "libero_spatial",
+      1000,
+      0
+    ],
+    [
+      "libero_spatial",
+      1031,
+      0
+    ],
+    [
+      "libero_spatial",
+      1045,
+      0
+    ],
+    [
+      "libero_spatial",
+      1079,
+      0
+    ],
+    [
+      "libero_spatial",
+      1083,
+      0
+    ],
+    [
+      "libero_spatial",
+      1099,
+      0
+    ],
+    [
+      "libero_spatial",
+      1108,
+      0
+    ],
+    [
+      "libero_spatial",
+      1146,
+      0
+    ],
+    [
+      "libero_spatial",
+      1164,
+      0
+    ],
+    [
+      "libero_spatial",
+      1179,
+      0
+    ],
+    [
+      "libero_spatial",
+      1183,
+      0
+    ],
+    [
+      "libero_spatial",
+      1201,
+      0
+    ],
+    [
+      "libero_spatial",
+      1231,
+      0
+    ],
+    [
+      "libero_spatial",
+      1247,
+      0
+    ],
+    [
+      "libero_spatial",
+      1279,
+      0
+    ],
+    [
+      "libero_spatial",
+      1283,
+      0
+    ],
+    [
+      "libero_spatial",
+      1323,
+      0
+    ],
+    [
+      "libero_spatial",
+      1359,
+      0
+    ],
+    [
+      "libero_spatial",
+      1361,
+      0
+    ],
+    [
+      "libero_spatial",
+      1385,
+      0
+    ],
+    [
+      "libero_spatial",
+      1405,
+      0
+    ],
+    [
+      "libero_spatial",
+      1419,
+      0
+    ],
+    [
+      "libero_spatial",
+      1427,
+      0
+    ],
+    [
+      "libero_spatial",
+      1460,
+      0
+    ],
+    [
+      "libero_spatial",
+      1464,
+      0
+    ],
+    [
+      "libero_spatial",
+      1475,
+      0
+    ],
+    [
+      "libero_spatial",
+      1496,
+      0
+    ],
+    [
+      "libero_spatial",
+      1512,
+      0
+    ],
+    [
+      "libero_spatial",
+      1524,
+      0
+    ],
+    [
+      "libero_spatial",
+      1562,
+      0
+    ],
+    [
+      "libero_spatial",
+      1573,
+      0
+    ],
+    [
+      "libero_spatial",
+      1584,
+      0
+    ],
+    [
+      "libero_spatial",
+      1616,
+      0
+    ],
+    [
+      "libero_spatial",
+      1630,
+      0
+    ],
+    [
+      "libero_spatial",
+      1636,
+      0
+    ],
+    [
+      "libero_spatial",
+      1665,
+      0
+    ],
+    [
+      "libero_spatial",
+      1677,
+      0
+    ],
+    [
+      "libero_spatial",
+      1698,
+      0
+    ],
+    [
+      "libero_spatial",
+      1710,
+      0
+    ],
+    [
+      "libero_spatial",
+      1742,
+      0
+    ],
+    [
+      "libero_spatial",
+      1752,
+      0
+    ],
+    [
+      "libero_spatial",
+      1782,
+      0
+    ],
+    [
+      "libero_spatial",
+      1788,
+      0
+    ],
+    [
+      "libero_spatial",
+      1826,
+      0
+    ],
+    [
+      "libero_spatial",
+      1835,
+      0
+    ],
+    [
+      "libero_spatial",
+      1861,
+      0
+    ],
+    [
+      "libero_spatial",
+      1878,
+      0
+    ],
+    [
+      "libero_spatial",
+      1884,
+      0
+    ],
+    [
+      "libero_spatial",
+      1909,
+      0
+    ],
+    [
+      "libero_spatial",
+      1912,
+      0
+    ],
+    [
+      "libero_spatial",
+      1919,
+      0
+    ],
+    [
+      "libero_spatial",
+      1957,
+      0
+    ],
+    [
+      "libero_spatial",
+      1965,
+      0
+    ],
+    [
+      "libero_spatial",
+      2007,
+      0
+    ],
+    [
+      "libero_spatial",
+      2023,
+      0
+    ],
+    [
+      "libero_spatial",
+      2046,
+      0
+    ],
+    [
+      "libero_spatial",
+      2062,
+      0
+    ],
+    [
+      "libero_spatial",
+      2076,
+      0
+    ],
+    [
+      "libero_spatial",
+      2103,
+      0
+    ],
+    [
+      "libero_spatial",
+      2117,
+      0
+    ],
+    [
+      "libero_spatial",
+      2136,
+      0
+    ],
+    [
+      "libero_spatial",
+      2173,
+      0
+    ],
+    [
+      "libero_spatial",
+      2193,
+      0
+    ],
+    [
+      "libero_spatial",
+      2218,
+      0
+    ],
+    [
+      "libero_spatial",
+      2228,
+      0
+    ],
+    [
+      "libero_spatial",
+      2259,
+      0
+    ],
+    [
+      "libero_spatial",
+      2262,
+      0
+    ],
+    [
+      "libero_spatial",
+      2278,
+      0
+    ],
+    [
+      "libero_spatial",
+      2280,
+      0
+    ],
+    [
+      "libero_spatial",
+      2283,
+      0
+    ],
+    [
+      "libero_spatial",
+      2287,
+      0
+    ],
+    [
+      "libero_spatial",
+      2297,
+      0
+    ],
+    [
+      "libero_spatial",
+      2298,
+      0
+    ],
+    [
+      "libero_spatial",
+      2334,
+      0
+    ],
+    [
+      "libero_spatial",
+      2345,
+      0
+    ],
+    [
+      "libero_spatial",
+      2353,
+      0
+    ],
+    [
+      "libero_spatial",
+      2359,
+      0
+    ],
+    [
+      "libero_spatial",
+      2390,
+      0
+    ],
+    [
+      "libero_spatial",
+      2396,
+      0
+    ]
+  ],
+  "family_by_key": {
+    "libero_10:9": "libero_10/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it",
+    "libero_10:7": "libero_10/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it",
+    "libero_10:751": "libero_10/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it",
+    "libero_10:754": "libero_10/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it",
+    "libero_10:1192": "libero_10/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it",
+    "libero_10:1194": "libero_10/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it",
+    "libero_10:2272": "libero_10/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it",
+    "libero_10:2277": "libero_10/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it",
+    "libero_10:1939": "libero_10/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it",
+    "libero_10:1956": "libero_10/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it",
+    "libero_10:372": "libero_10/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it",
+    "libero_10:393": "libero_10/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it",
+    "libero_10:1570": "libero_10/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it",
+    "libero_10:1581": "libero_10/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it",
+    "libero_10:35": "libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+    "libero_10:54": "libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+    "libero_10:818": "libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+    "libero_10:790": "libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+    "libero_10:1212": "libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+    "libero_10:1248": "libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+    "libero_10:2300": "libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+    "libero_10:2293": "libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+    "libero_10:1960": "libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+    "libero_10:1980": "libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+    "libero_10:419": "libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+    "libero_10:425": "libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+    "libero_10:1642": "libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+    "libero_10:1631": "libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+    "libero_10:92": "libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+    "libero_10:91": "libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+    "libero_10:1092": "libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+    "libero_10:1061": "libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+    "libero_10:1454": "libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+    "libero_10:1478": "libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+    "libero_10:2366": "libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+    "libero_10:2341": "libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+    "libero_10:1998": "libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+    "libero_10:2010": "libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+    "libero_10:657": "libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+    "libero_10:679": "libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+    "libero_10:1908": "libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+    "libero_10:1926": "libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+    "libero_10:131": "libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+    "libero_10:124": "libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+    "libero_10:1056": "libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+    "libero_10:1060": "libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+    "libero_10:1432": "libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+    "libero_10:1424": "libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+    "libero_10:2379": "libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+    "libero_10:2393": "libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+    "libero_10:2040": "libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+    "libero_10:2024": "libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+    "libero_10:638": "libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+    "libero_10:623": "libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+    "libero_10:1881": "libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+    "libero_10:1856": "libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove",
+    "libero_10:140": "libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+    "libero_10:139": "libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+    "libero_10:981": "libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+    "libero_10:1009": "libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+    "libero_10:1375": "libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+    "libero_10:1395": "libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+    "libero_10:2400": "libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+    "libero_10:2398": "libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+    "libero_10:2054": "libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+    "libero_10:2055": "libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+    "libero_10:593": "libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+    "libero_10:592": "libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+    "libero_10:1833": "libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+    "libero_10:1809": "libero_10/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+    "libero_10:154": "libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+    "libero_10:148": "libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+    "libero_10:701": "libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+    "libero_10:683": "libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+    "libero_10:1129": "libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+    "libero_10:1136": "libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+    "libero_10:2407": "libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+    "libero_10:2405": "libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+    "libero_10:2084": "libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+    "libero_10:2059": "libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+    "libero_10:296": "libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+    "libero_10:302": "libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+    "libero_10:1513": "libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+    "libero_10:1491": "libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+    "libero_10:190": "libero_10/LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+    "libero_10:169": "libero_10/LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+    "libero_10:731": "libero_10/LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+    "libero_10:732": "libero_10/LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+    "libero_10:1154": "libero_10/LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+    "libero_10:1153": "libero_10/LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+    "libero_10:2421": "libero_10/LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+    "libero_10:2422": "libero_10/LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+    "libero_10:2117": "libero_10/LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+    "libero_10:2119": "libero_10/LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+    "libero_10:337": "libero_10/LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+    "libero_10:360": "libero_10/LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+    "libero_10:1546": "libero_10/LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+    "libero_10:1550": "libero_10/LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+    "libero_10:197": "libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+    "libero_10:232": "libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+    "libero_10:857": "libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+    "libero_10:869": "libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+    "libero_10:1270": "libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+    "libero_10:1282": "libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+    "libero_10:2453": "libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+    "libero_10:2455": "libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+    "libero_10:2127": "libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+    "libero_10:2141": "libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+    "libero_10:474": "libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+    "libero_10:486": "libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+    "libero_10:1684": "libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+    "libero_10:1708": "libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+    "libero_10:273": "libero_10/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+    "libero_10:246": "libero_10/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+    "libero_10:959": "libero_10/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+    "libero_10:949": "libero_10/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+    "libero_10:1328": "libero_10/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+    "libero_10:1334": "libero_10/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+    "libero_10:2469": "libero_10/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+    "libero_10:2485": "libero_10/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+    "libero_10:2181": "libero_10/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+    "libero_10:2175": "libero_10/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+    "libero_10:530": "libero_10/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+    "libero_10:564": "libero_10/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+    "libero_10:1781": "libero_10/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+    "libero_10:1763": "libero_10/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+    "libero_10:286": "libero_10/STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+    "libero_10:287": "libero_10/STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+    "libero_10:896": "libero_10/STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+    "libero_10:887": "libero_10/STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+    "libero_10:1308": "libero_10/STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+    "libero_10:1304": "libero_10/STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+    "libero_10:2498": "libero_10/STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+    "libero_10:2507": "libero_10/STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+    "libero_10:2233": "libero_10/STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+    "libero_10:2217": "libero_10/STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+    "libero_10:517": "libero_10/STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+    "libero_10:510": "libero_10/STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+    "libero_10:1737": "libero_10/STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+    "libero_10:1744": "libero_10/STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy",
+    "libero_goal:6": "libero_goal/open_the_middle_drawer_of_the_cabinet",
+    "libero_goal:5": "libero_goal/open_the_middle_drawer_of_the_cabinet",
+    "libero_goal:695": "libero_goal/open_the_middle_drawer_of_the_cabinet",
+    "libero_goal:701": "libero_goal/open_the_middle_drawer_of_the_cabinet",
+    "libero_goal:1142": "libero_goal/open_the_middle_drawer_of_the_cabinet",
+    "libero_goal:1127": "libero_goal/open_the_middle_drawer_of_the_cabinet",
+    "libero_goal:2324": "libero_goal/open_the_middle_drawer_of_the_cabinet",
+    "libero_goal:2344": "libero_goal/open_the_middle_drawer_of_the_cabinet",
+    "libero_goal:1891": "libero_goal/open_the_middle_drawer_of_the_cabinet",
+    "libero_goal:1920": "libero_goal/open_the_middle_drawer_of_the_cabinet",
+    "libero_goal:289": "libero_goal/open_the_middle_drawer_of_the_cabinet",
+    "libero_goal:315": "libero_goal/open_the_middle_drawer_of_the_cabinet",
+    "libero_goal:1518": "libero_goal/open_the_middle_drawer_of_the_cabinet",
+    "libero_goal:1522": "libero_goal/open_the_middle_drawer_of_the_cabinet",
+    "libero_goal:42": "libero_goal/open_the_top_drawer_and_put_the_bowl_inside",
+    "libero_goal:43": "libero_goal/open_the_top_drawer_and_put_the_bowl_inside",
+    "libero_goal:809": "libero_goal/open_the_top_drawer_and_put_the_bowl_inside",
+    "libero_goal:811": "libero_goal/open_the_top_drawer_and_put_the_bowl_inside",
+    "libero_goal:1251": "libero_goal/open_the_top_drawer_and_put_the_bowl_inside",
+    "libero_goal:1235": "libero_goal/open_the_top_drawer_and_put_the_bowl_inside",
+    "libero_goal:2401": "libero_goal/open_the_top_drawer_and_put_the_bowl_inside",
+    "libero_goal:2357": "libero_goal/open_the_top_drawer_and_put_the_bowl_inside",
+    "libero_goal:1942": "libero_goal/open_the_top_drawer_and_put_the_bowl_inside",
+    "libero_goal:1972": "libero_goal/open_the_top_drawer_and_put_the_bowl_inside",
+    "libero_goal:406": "libero_goal/open_the_top_drawer_and_put_the_bowl_inside",
+    "libero_goal:435": "libero_goal/open_the_top_drawer_and_put_the_bowl_inside",
+    "libero_goal:1651": "libero_goal/open_the_top_drawer_and_put_the_bowl_inside",
+    "libero_goal:1621": "libero_goal/open_the_top_drawer_and_put_the_bowl_inside",
+    "libero_goal:90": "libero_goal/push_the_plate_to_the_front_of_the_stove",
+    "libero_goal:76": "libero_goal/push_the_plate_to_the_front_of_the_stove",
+    "libero_goal:885": "libero_goal/push_the_plate_to_the_front_of_the_stove",
+    "libero_goal:915": "libero_goal/push_the_plate_to_the_front_of_the_stove",
+    "libero_goal:1326": "libero_goal/push_the_plate_to_the_front_of_the_stove",
+    "libero_goal:1316": "libero_goal/push_the_plate_to_the_front_of_the_stove",
+    "libero_goal:2417": "libero_goal/push_the_plate_to_the_front_of_the_stove",
+    "libero_goal:2421": "libero_goal/push_the_plate_to_the_front_of_the_stove",
+    "libero_goal:2003": "libero_goal/push_the_plate_to_the_front_of_the_stove",
+    "libero_goal:2011": "libero_goal/push_the_plate_to_the_front_of_the_stove",
+    "libero_goal:510": "libero_goal/push_the_plate_to_the_front_of_the_stove",
+    "libero_goal:519": "libero_goal/push_the_plate_to_the_front_of_the_stove",
+    "libero_goal:1729": "libero_goal/push_the_plate_to_the_front_of_the_stove",
+    "libero_goal:1717": "libero_goal/push_the_plate_to_the_front_of_the_stove",
+    "libero_goal:108": "libero_goal/put_the_bowl_on_the_plate",
+    "libero_goal:126": "libero_goal/put_the_bowl_on_the_plate",
+    "libero_goal:1051": "libero_goal/put_the_bowl_on_the_plate",
+    "libero_goal:1048": "libero_goal/put_the_bowl_on_the_plate",
+    "libero_goal:1456": "libero_goal/put_the_bowl_on_the_plate",
+    "libero_goal:1428": "libero_goal/put_the_bowl_on_the_plate",
+    "libero_goal:2447": "libero_goal/put_the_bowl_on_the_plate",
+    "libero_goal:2454": "libero_goal/put_the_bowl_on_the_plate",
+    "libero_goal:2024": "libero_goal/put_the_bowl_on_the_plate",
+    "libero_goal:2060": "libero_goal/put_the_bowl_on_the_plate",
+    "libero_goal:644": "libero_goal/put_the_bowl_on_the_plate",
+    "libero_goal:625": "libero_goal/put_the_bowl_on_the_plate",
+    "libero_goal:1819": "libero_goal/put_the_bowl_on_the_plate",
+    "libero_goal:1834": "libero_goal/put_the_bowl_on_the_plate",
+    "libero_goal:136": "libero_goal/put_the_bowl_on_the_stove",
+    "libero_goal:133": "libero_goal/put_the_bowl_on_the_stove",
+    "libero_goal:715": "libero_goal/put_the_bowl_on_the_stove",
+    "libero_goal:738": "libero_goal/put_the_bowl_on_the_stove",
+    "libero_goal:1162": "libero_goal/put_the_bowl_on_the_stove",
+    "libero_goal:1148": "libero_goal/put_the_bowl_on_the_stove",
+    "libero_goal:2468": "libero_goal/put_the_bowl_on_the_stove",
+    "libero_goal:2467": "libero_goal/put_the_bowl_on_the_stove",
+    "libero_goal:2068": "libero_goal/put_the_bowl_on_the_stove",
+    "libero_goal:2089": "libero_goal/put_the_bowl_on_the_stove",
+    "libero_goal:337": "libero_goal/put_the_bowl_on_the_stove",
+    "libero_goal:357": "libero_goal/put_the_bowl_on_the_stove",
+    "libero_goal:1572": "libero_goal/put_the_bowl_on_the_stove",
+    "libero_goal:1563": "libero_goal/put_the_bowl_on_the_stove",
+    "libero_goal:144": "libero_goal/put_the_bowl_on_top_of_the_cabinet",
+    "libero_goal:141": "libero_goal/put_the_bowl_on_top_of_the_cabinet",
+    "libero_goal:867": "libero_goal/put_the_bowl_on_top_of_the_cabinet",
+    "libero_goal:880": "libero_goal/put_the_bowl_on_top_of_the_cabinet",
+    "libero_goal:1292": "libero_goal/put_the_bowl_on_top_of_the_cabinet",
+    "libero_goal:1267": "libero_goal/put_the_bowl_on_top_of_the_cabinet",
+    "libero_goal:2480": "libero_goal/put_the_bowl_on_top_of_the_cabinet",
+    "libero_goal:2470": "libero_goal/put_the_bowl_on_top_of_the_cabinet",
+    "libero_goal:2098": "libero_goal/put_the_bowl_on_top_of_the_cabinet",
+    "libero_goal:2115": "libero_goal/put_the_bowl_on_top_of_the_cabinet",
+    "libero_goal:484": "libero_goal/put_the_bowl_on_top_of_the_cabinet",
+    "libero_goal:478": "libero_goal/put_the_bowl_on_top_of_the_cabinet",
+    "libero_goal:1664": "libero_goal/put_the_bowl_on_top_of_the_cabinet",
+    "libero_goal:1682": "libero_goal/put_the_bowl_on_top_of_the_cabinet",
+    "libero_goal:161": "libero_goal/put_the_cream_cheese_in_the_bowl",
+    "libero_goal:180": "libero_goal/put_the_cream_cheese_in_the_bowl",
+    "libero_goal:932": "libero_goal/put_the_cream_cheese_in_the_bowl",
+    "libero_goal:966": "libero_goal/put_the_cream_cheese_in_the_bowl",
+    "libero_goal:1354": "libero_goal/put_the_cream_cheese_in_the_bowl",
+    "libero_goal:1338": "libero_goal/put_the_cream_cheese_in_the_bowl",
+    "libero_goal:2490": "libero_goal/put_the_cream_cheese_in_the_bowl",
+    "libero_goal:2497": "libero_goal/put_the_cream_cheese_in_the_bowl",
+    "libero_goal:2150": "libero_goal/put_the_cream_cheese_in_the_bowl",
+    "libero_goal:2165": "libero_goal/put_the_cream_cheese_in_the_bowl",
+    "libero_goal:531": "libero_goal/put_the_cream_cheese_in_the_bowl",
+    "libero_goal:560": "libero_goal/put_the_cream_cheese_in_the_bowl",
+    "libero_goal:1746": "libero_goal/put_the_cream_cheese_in_the_bowl",
+    "libero_goal:1773": "libero_goal/put_the_cream_cheese_in_the_bowl",
+    "libero_goal:201": "libero_goal/put_the_wine_bottle_on_the_rack",
+    "libero_goal:222": "libero_goal/put_the_wine_bottle_on_the_rack",
+    "libero_goal:1092": "libero_goal/put_the_wine_bottle_on_the_rack",
+    "libero_goal:1065": "libero_goal/put_the_wine_bottle_on_the_rack",
+    "libero_goal:1465": "libero_goal/put_the_wine_bottle_on_the_rack",
+    "libero_goal:1461": "libero_goal/put_the_wine_bottle_on_the_rack",
+    "libero_goal:2540": "libero_goal/put_the_wine_bottle_on_the_rack",
+    "libero_goal:2537": "libero_goal/put_the_wine_bottle_on_the_rack",
+    "libero_goal:2175": "libero_goal/put_the_wine_bottle_on_the_rack",
+    "libero_goal:2219": "libero_goal/put_the_wine_bottle_on_the_rack",
+    "libero_goal:651": "libero_goal/put_the_wine_bottle_on_the_rack",
+    "libero_goal:653": "libero_goal/put_the_wine_bottle_on_the_rack",
+    "libero_goal:1867": "libero_goal/put_the_wine_bottle_on_the_rack",
+    "libero_goal:1885": "libero_goal/put_the_wine_bottle_on_the_rack",
+    "libero_goal:268": "libero_goal/put_the_wine_bottle_on_top_of_the_cabinet",
+    "libero_goal:255": "libero_goal/put_the_wine_bottle_on_top_of_the_cabinet",
+    "libero_goal:752": "libero_goal/put_the_wine_bottle_on_top_of_the_cabinet",
+    "libero_goal:767": "libero_goal/put_the_wine_bottle_on_top_of_the_cabinet",
+    "libero_goal:1191": "libero_goal/put_the_wine_bottle_on_top_of_the_cabinet",
+    "libero_goal:1183": "libero_goal/put_the_wine_bottle_on_top_of_the_cabinet",
+    "libero_goal:2555": "libero_goal/put_the_wine_bottle_on_top_of_the_cabinet",
+    "libero_goal:2562": "libero_goal/put_the_wine_bottle_on_top_of_the_cabinet",
+    "libero_goal:2227": "libero_goal/put_the_wine_bottle_on_top_of_the_cabinet",
+    "libero_goal:2238": "libero_goal/put_the_wine_bottle_on_top_of_the_cabinet",
+    "libero_goal:381": "libero_goal/put_the_wine_bottle_on_top_of_the_cabinet",
+    "libero_goal:388": "libero_goal/put_the_wine_bottle_on_top_of_the_cabinet",
+    "libero_goal:1603": "libero_goal/put_the_wine_bottle_on_top_of_the_cabinet",
+    "libero_goal:1584": "libero_goal/put_the_wine_bottle_on_top_of_the_cabinet",
+    "libero_goal:276": "libero_goal/turn_on_the_stove",
+    "libero_goal:270": "libero_goal/turn_on_the_stove",
+    "libero_goal:992": "libero_goal/turn_on_the_stove",
+    "libero_goal:986": "libero_goal/turn_on_the_stove",
+    "libero_goal:1421": "libero_goal/turn_on_the_stove",
+    "libero_goal:1404": "libero_goal/turn_on_the_stove",
+    "libero_goal:2585": "libero_goal/turn_on_the_stove",
+    "libero_goal:2589": "libero_goal/turn_on_the_stove",
+    "libero_goal:2268": "libero_goal/turn_on_the_stove",
+    "libero_goal:2295": "libero_goal/turn_on_the_stove",
+    "libero_goal:589": "libero_goal/turn_on_the_stove",
+    "libero_goal:607": "libero_goal/turn_on_the_stove",
+    "libero_goal:1791": "libero_goal/turn_on_the_stove",
+    "libero_goal:1795": "libero_goal/turn_on_the_stove",
+    "libero_object:25": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "libero_object:17": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "libero_object:652": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "libero_object:657": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "libero_object:1058": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "libero_object:1062": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "libero_object:2250": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "libero_object:2239": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "libero_object:1832": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "libero_object:1841": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "libero_object:286": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "libero_object:289": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "libero_object:1432": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "libero_object:1408": "libero_object/pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "libero_object:67": "libero_object/pick_up_the_bbq_sauce_and_place_it_in_the_basket",
+    "libero_object:78": "libero_object/pick_up_the_bbq_sauce_and_place_it_in_the_basket",
+    "libero_object:769": "libero_object/pick_up_the_bbq_sauce_and_place_it_in_the_basket",
+    "libero_object:774": "libero_object/pick_up_the_bbq_sauce_and_place_it_in_the_basket",
+    "libero_object:1142": "libero_object/pick_up_the_bbq_sauce_and_place_it_in_the_basket",
+    "libero_object:1138": "libero_object/pick_up_the_bbq_sauce_and_place_it_in_the_basket",
+    "libero_object:2274": "libero_object/pick_up_the_bbq_sauce_and_place_it_in_the_basket",
+    "libero_object:2280": "libero_object/pick_up_the_bbq_sauce_and_place_it_in_the_basket",
+    "libero_object:1879": "libero_object/pick_up_the_bbq_sauce_and_place_it_in_the_basket",
+    "libero_object:1899": "libero_object/pick_up_the_bbq_sauce_and_place_it_in_the_basket",
+    "libero_object:370": "libero_object/pick_up_the_bbq_sauce_and_place_it_in_the_basket",
+    "libero_object:376": "libero_object/pick_up_the_bbq_sauce_and_place_it_in_the_basket",
+    "libero_object:1533": "libero_object/pick_up_the_bbq_sauce_and_place_it_in_the_basket",
+    "libero_object:1536": "libero_object/pick_up_the_bbq_sauce_and_place_it_in_the_basket",
+    "libero_object:98": "libero_object/pick_up_the_butter_and_place_it_in_the_basket",
+    "libero_object:94": "libero_object/pick_up_the_butter_and_place_it_in_the_basket",
+    "libero_object:926": "libero_object/pick_up_the_butter_and_place_it_in_the_basket",
+    "libero_object:899": "libero_object/pick_up_the_butter_and_place_it_in_the_basket",
+    "libero_object:1258": "libero_object/pick_up_the_butter_and_place_it_in_the_basket",
+    "libero_object:1261": "libero_object/pick_up_the_butter_and_place_it_in_the_basket",
+    "libero_object:2345": "libero_object/pick_up_the_butter_and_place_it_in_the_basket",
+    "libero_object:2329": "libero_object/pick_up_the_butter_and_place_it_in_the_basket",
+    "libero_object:1906": "libero_object/pick_up_the_butter_and_place_it_in_the_basket",
+    "libero_object:1937": "libero_object/pick_up_the_butter_and_place_it_in_the_basket",
+    "libero_object:488": "libero_object/pick_up_the_butter_and_place_it_in_the_basket",
+    "libero_object:514": "libero_object/pick_up_the_butter_and_place_it_in_the_basket",
+    "libero_object:1689": "libero_object/pick_up_the_butter_and_place_it_in_the_basket",
+    "libero_object:1695": "libero_object/pick_up_the_butter_and_place_it_in_the_basket",
+    "libero_object:106": "libero_object/pick_up_the_chocolate_pudding_and_place_it_in_the_basket",
+    "libero_object:119": "libero_object/pick_up_the_chocolate_pudding_and_place_it_in_the_basket",
+    "libero_object:999": "libero_object/pick_up_the_chocolate_pudding_and_place_it_in_the_basket",
+    "libero_object:980": "libero_object/pick_up_the_chocolate_pudding_and_place_it_in_the_basket",
+    "libero_object:1321": "libero_object/pick_up_the_chocolate_pudding_and_place_it_in_the_basket",
+    "libero_object:1307": "libero_object/pick_up_the_chocolate_pudding_and_place_it_in_the_basket",
+    "libero_object:2378": "libero_object/pick_up_the_chocolate_pudding_and_place_it_in_the_basket",
+    "libero_object:2360": "libero_object/pick_up_the_chocolate_pudding_and_place_it_in_the_basket",
+    "libero_object:1972": "libero_object/pick_up_the_chocolate_pudding_and_place_it_in_the_basket",
+    "libero_object:1983": "libero_object/pick_up_the_chocolate_pudding_and_place_it_in_the_basket",
+    "libero_object:568": "libero_object/pick_up_the_chocolate_pudding_and_place_it_in_the_basket",
+    "libero_object:576": "libero_object/pick_up_the_chocolate_pudding_and_place_it_in_the_basket",
+    "libero_object:1769": "libero_object/pick_up_the_chocolate_pudding_and_place_it_in_the_basket",
+    "libero_object:1741": "libero_object/pick_up_the_chocolate_pudding_and_place_it_in_the_basket",
+    "libero_object:124": "libero_object/pick_up_the_cream_cheese_and_place_it_in_the_basket",
+    "libero_object:122": "libero_object/pick_up_the_cream_cheese_and_place_it_in_the_basket",
+    "libero_object:667": "libero_object/pick_up_the_cream_cheese_and_place_it_in_the_basket",
+    "libero_object:677": "libero_object/pick_up_the_cream_cheese_and_place_it_in_the_basket",
+    "libero_object:1089": "libero_object/pick_up_the_cream_cheese_and_place_it_in_the_basket",
+    "libero_object:1075": "libero_object/pick_up_the_cream_cheese_and_place_it_in_the_basket",
+    "libero_object:2389": "libero_object/pick_up_the_cream_cheese_and_place_it_in_the_basket",
+    "libero_object:2387": "libero_object/pick_up_the_cream_cheese_and_place_it_in_the_basket",
+    "libero_object:1996": "libero_object/pick_up_the_cream_cheese_and_place_it_in_the_basket",
+    "libero_object:2008": "libero_object/pick_up_the_cream_cheese_and_place_it_in_the_basket",
+    "libero_object:304": "libero_object/pick_up_the_cream_cheese_and_place_it_in_the_basket",
+    "libero_object:314": "libero_object/pick_up_the_cream_cheese_and_place_it_in_the_basket",
+    "libero_object:1475": "libero_object/pick_up_the_cream_cheese_and_place_it_in_the_basket",
+    "libero_object:1465": "libero_object/pick_up_the_cream_cheese_and_place_it_in_the_basket",
+    "libero_object:135": "libero_object/pick_up_the_ketchup_and_place_it_in_the_basket",
+    "libero_object:136": "libero_object/pick_up_the_ketchup_and_place_it_in_the_basket",
+    "libero_object:802": "libero_object/pick_up_the_ketchup_and_place_it_in_the_basket",
+    "libero_object:803": "libero_object/pick_up_the_ketchup_and_place_it_in_the_basket",
+    "libero_object:1171": "libero_object/pick_up_the_ketchup_and_place_it_in_the_basket",
+    "libero_object:1197": "libero_object/pick_up_the_ketchup_and_place_it_in_the_basket",
+    "libero_object:2398": "libero_object/pick_up_the_ketchup_and_place_it_in_the_basket",
+    "libero_object:2392": "libero_object/pick_up_the_ketchup_and_place_it_in_the_basket",
+    "libero_object:2028": "libero_object/pick_up_the_ketchup_and_place_it_in_the_basket",
+    "libero_object:2032": "libero_object/pick_up_the_ketchup_and_place_it_in_the_basket",
+    "libero_object:438": "libero_object/pick_up_the_ketchup_and_place_it_in_the_basket",
+    "libero_object:415": "libero_object/pick_up_the_ketchup_and_place_it_in_the_basket",
+    "libero_object:1570": "libero_object/pick_up_the_ketchup_and_place_it_in_the_basket",
+    "libero_object:1580": "libero_object/pick_up_the_ketchup_and_place_it_in_the_basket",
+    "libero_object:160": "libero_object/pick_up_the_milk_and_place_it_in_the_basket",
+    "libero_object:154": "libero_object/pick_up_the_milk_and_place_it_in_the_basket",
+    "libero_object:974": "libero_object/pick_up_the_milk_and_place_it_in_the_basket",
+    "libero_object:930": "libero_object/pick_up_the_milk_and_place_it_in_the_basket",
+    "libero_object:1273": "libero_object/pick_up_the_milk_and_place_it_in_the_basket",
+    "libero_object:1284": "libero_object/pick_up_the_milk_and_place_it_in_the_basket",
+    "libero_object:2425": "libero_object/pick_up_the_milk_and_place_it_in_the_basket",
+    "libero_object:2424": "libero_object/pick_up_the_milk_and_place_it_in_the_basket",
+    "libero_object:2057": "libero_object/pick_up_the_milk_and_place_it_in_the_basket",
+    "libero_object:2078": "libero_object/pick_up_the_milk_and_place_it_in_the_basket",
+    "libero_object:525": "libero_object/pick_up_the_milk_and_place_it_in_the_basket",
+    "libero_object:558": "libero_object/pick_up_the_milk_and_place_it_in_the_basket",
+    "libero_object:1701": "libero_object/pick_up_the_milk_and_place_it_in_the_basket",
+    "libero_object:1712": "libero_object/pick_up_the_milk_and_place_it_in_the_basket",
+    "libero_object:203": "libero_object/pick_up_the_orange_juice_and_place_it_in_the_basket",
+    "libero_object:178": "libero_object/pick_up_the_orange_juice_and_place_it_in_the_basket",
+    "libero_object:1026": "libero_object/pick_up_the_orange_juice_and_place_it_in_the_basket",
+    "libero_object:1022": "libero_object/pick_up_the_orange_juice_and_place_it_in_the_basket",
+    "libero_object:1368": "libero_object/pick_up_the_orange_juice_and_place_it_in_the_basket",
+    "libero_object:1356": "libero_object/pick_up_the_orange_juice_and_place_it_in_the_basket",
+    "libero_object:2431": "libero_object/pick_up_the_orange_juice_and_place_it_in_the_basket",
+    "libero_object:2441": "libero_object/pick_up_the_orange_juice_and_place_it_in_the_basket",
+    "libero_object:2092": "libero_object/pick_up_the_orange_juice_and_place_it_in_the_basket",
+    "libero_object:2124": "libero_object/pick_up_the_orange_juice_and_place_it_in_the_basket",
+    "libero_object:613": "libero_object/pick_up_the_orange_juice_and_place_it_in_the_basket",
+    "libero_object:601": "libero_object/pick_up_the_orange_juice_and_place_it_in_the_basket",
+    "libero_object:1795": "libero_object/pick_up_the_orange_juice_and_place_it_in_the_basket",
+    "libero_object:1785": "libero_object/pick_up_the_orange_juice_and_place_it_in_the_basket",
+    "libero_object:218": "libero_object/pick_up_the_salad_dressing_and_place_it_in_the_basket",
+    "libero_object:227": "libero_object/pick_up_the_salad_dressing_and_place_it_in_the_basket",
+    "libero_object:706": "libero_object/pick_up_the_salad_dressing_and_place_it_in_the_basket",
+    "libero_object:729": "libero_object/pick_up_the_salad_dressing_and_place_it_in_the_basket",
+    "libero_object:1108": "libero_object/pick_up_the_salad_dressing_and_place_it_in_the_basket",
+    "libero_object:1111": "libero_object/pick_up_the_salad_dressing_and_place_it_in_the_basket",
+    "libero_object:2495": "libero_object/pick_up_the_salad_dressing_and_place_it_in_the_basket",
+    "libero_object:2486": "libero_object/pick_up_the_salad_dressing_and_place_it_in_the_basket",
+    "libero_object:2132": "libero_object/pick_up_the_salad_dressing_and_place_it_in_the_basket",
+    "libero_object:2158": "libero_object/pick_up_the_salad_dressing_and_place_it_in_the_basket",
+    "libero_object:342": "libero_object/pick_up_the_salad_dressing_and_place_it_in_the_basket",
+    "libero_object:356": "libero_object/pick_up_the_salad_dressing_and_place_it_in_the_basket",
+    "libero_object:1494": "libero_object/pick_up_the_salad_dressing_and_place_it_in_the_basket",
+    "libero_object:1488": "libero_object/pick_up_the_salad_dressing_and_place_it_in_the_basket",
+    "libero_object:242": "libero_object/pick_up_the_tomato_sauce_and_place_it_in_the_basket",
+    "libero_object:237": "libero_object/pick_up_the_tomato_sauce_and_place_it_in_the_basket",
+    "libero_object:845": "libero_object/pick_up_the_tomato_sauce_and_place_it_in_the_basket",
+    "libero_object:865": "libero_object/pick_up_the_tomato_sauce_and_place_it_in_the_basket",
+    "libero_object:1221": "libero_object/pick_up_the_tomato_sauce_and_place_it_in_the_basket",
+    "libero_object:1198": "libero_object/pick_up_the_tomato_sauce_and_place_it_in_the_basket",
+    "libero_object:2509": "libero_object/pick_up_the_tomato_sauce_and_place_it_in_the_basket",
+    "libero_object:2500": "libero_object/pick_up_the_tomato_sauce_and_place_it_in_the_basket",
+    "libero_object:2173": "libero_object/pick_up_the_tomato_sauce_and_place_it_in_the_basket",
+    "libero_object:2213": "libero_object/pick_up_the_tomato_sauce_and_place_it_in_the_basket",
+    "libero_object:468": "libero_object/pick_up_the_tomato_sauce_and_place_it_in_the_basket",
+    "libero_object:480": "libero_object/pick_up_the_tomato_sauce_and_place_it_in_the_basket",
+    "libero_object:1636": "libero_object/pick_up_the_tomato_sauce_and_place_it_in_the_basket",
+    "libero_object:1640": "libero_object/pick_up_the_tomato_sauce_and_place_it_in_the_basket",
+    "libero_spatial:16": "libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:1": "libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:608": "libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:611": "libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:998": "libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:1000": "libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:2117": "libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:2136": "libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:1752": "libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:1742": "libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:276": "libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:285": "libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:1405": "libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:1385": "libero_spatial/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:36": "libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate",
+    "libero_spatial:64": "libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate",
+    "libero_spatial:651": "libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate",
+    "libero_spatial:664": "libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate",
+    "libero_spatial:1083": "libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate",
+    "libero_spatial:1079": "libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate",
+    "libero_spatial:2193": "libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate",
+    "libero_spatial:2173": "libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate",
+    "libero_spatial:1788": "libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate",
+    "libero_spatial:1782": "libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate",
+    "libero_spatial:350": "libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate",
+    "libero_spatial:335": "libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate",
+    "libero_spatial:1464": "libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate",
+    "libero_spatial:1460": "libero_spatial/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate",
+    "libero_spatial:89": "libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:95": "libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:743": "libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:770": "libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:1146": "libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:1164": "libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:2228": "libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:2218": "libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:1835": "libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:1826": "libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:421": "libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:391": "libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:1524": "libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:1512": "libero_spatial/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:104": "libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:120": "libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:837": "libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:853": "libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:1231": "libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:1201": "libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:2262": "libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:2259": "libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:1861": "libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:1878": "libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:477": "libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:485": "libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:1584": "libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:1616": "libero_spatial/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:126": "libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate",
+    "libero_spatial:125": "libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate",
+    "libero_spatial:930": "libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate",
+    "libero_spatial:917": "libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate",
+    "libero_spatial:1323": "libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate",
+    "libero_spatial:1283": "libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate",
+    "libero_spatial:2278": "libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate",
+    "libero_spatial:2280": "libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate",
+    "libero_spatial:1884": "libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate",
+    "libero_spatial:1909": "libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate",
+    "libero_spatial:530": "libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate",
+    "libero_spatial:551": "libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate",
+    "libero_spatial:1665": "libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate",
+    "libero_spatial:1677": "libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate",
+    "libero_spatial:129": "libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:133": "libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:619": "libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:623": "libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:1031": "libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:1045": "libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:2283": "libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:2287": "libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:1912": "libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:1919": "libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:304": "libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:323": "libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:1427": "libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:1419": "libero_spatial/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:146": "libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:155": "libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:726": "libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:690": "libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:1108": "libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:1099": "libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:2298": "libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:2297": "libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:1957": "libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:1965": "libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:368": "libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:380": "libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:1475": "libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:1496": "libero_spatial/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate",
+    "libero_spatial:175": "libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:191": "libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:789": "libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:823": "libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:1183": "libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:1179": "libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:2334": "libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:2345": "libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:2023": "libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:2007": "libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:433": "libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:445": "libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:1573": "libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:1562": "libero_spatial/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate",
+    "libero_spatial:231": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate",
+    "libero_spatial:230": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate",
+    "libero_spatial:880": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate",
+    "libero_spatial:890": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate",
+    "libero_spatial:1279": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate",
+    "libero_spatial:1247": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate",
+    "libero_spatial:2359": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate",
+    "libero_spatial:2353": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate",
+    "libero_spatial:2062": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate",
+    "libero_spatial:2046": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate",
+    "libero_spatial:495": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate",
+    "libero_spatial:527": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate",
+    "libero_spatial:1636": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate",
+    "libero_spatial:1630": "libero_spatial/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate",
+    "libero_spatial:247": "libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:245": "libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:961": "libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:968": "libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:1361": "libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:1359": "libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:2390": "libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:2396": "libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:2103": "libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:2076": "libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:597": "libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:599": "libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:1710": "libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate",
+    "libero_spatial:1698": "libero_spatial/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate"
+  },
+  "selection": "Two per family/category: one per difficulty-sorted half when all severities known, otherwise two hash-selected; no outcomes used",
+  "interpretation": "Exploratory test-subset curve, not independent validation or a full-benchmark score"
+}

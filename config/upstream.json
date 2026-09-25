@@ -1,0 +1,32 @@
+{
+  "xvla": {
+    "url": "https://github.com/2toinf/X-VLA.git",
+    "commit": "6bc2513f5f1cbec715cc668b414392a6cae5c671",
+    "directory": "third_party/X-VLA"
+  },
+  "oft": {
+    "url": "https://github.com/moojink/openvla-oft.git",
+    "commit": "e4287e94541f459edc4feabc4e181f537cd569a8",
+    "directory": "third_party/openvla-oft"
+  },
+  "pi05": {
+    "url": "https://github.com/Physical-Intelligence/openpi.git",
+    "commit": "15a9616a00943ada6c20a0f158e3adb39df2ccac",
+    "directory": "third_party/openpi"
+  },
+  "nora15": {
+    "url": "https://github.com/declare-lab/nora-1.5.git",
+    "commit": "d1cdce29e9a9ce9f0e05d3f4b3d1c6eed592a9a9",
+    "directory": "third_party/nora-1.5"
+  },
+  "internvla15": {
+    "url": "https://github.com/InternRobotics/InternVLA-A-series.git",
+    "commit": "e6fc904f9edbfb14532e97095fc2372202517f76",
+    "directory": "third_party/InternVLA-A-series"
+  },
+  "harness": {
+    "url": "https://github.com/allenai/vla-evaluation-harness.git",
+    "commit": "4aeb4369640e8019d46af9534ce9b957e486ad38",
+    "directory": "third_party/vla-evaluation-harness"
+  }
+}

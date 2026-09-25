@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "quantitative_runs": 61,
+  "episodes": 358800,
+  "groups": {
+    "libero_plus": 32,
+    "libero_plus_screen560": 14,
+    "libero_original": 15
+  },
+  "python_files_syntax_checked": 66,
+  "pairing": "exact episode-key equality",
+  "training_splits": "disjoint and ordered-ID hash verified",
+  "privacy_scan": "text and decompressed outcome fields; media inspected separately",
+  "gpu_end_to_end_rerun": false
+}

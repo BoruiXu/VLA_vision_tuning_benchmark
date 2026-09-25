@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "source_totals": {
+    "episodes": 14347,
+    "frames": 2238036,
+    "tasks": 40
+  },
+  "source_metadata_sha256": {
+    "episodes.jsonl": "8e99bea92dd184a60895237d0d38edcc2fc7d7c4e6eca53eaa5479c0039324f8",
+    "episodes_stats.jsonl": "6ea25e0073ec776cd750346cb3e822d72aa0176e0e43fe085112935d86732dda",
+    "info.json": "b711775930d55bc3a8c36038fc04fa1b297f3ef95af71dd9149f6b063f830d0c",
+    "tasks.jsonl": "e7c9d0a5f997173326e05ec2640c7b24c3e86a4e306d1e3cc88fa3453d0b4823"
+  },
+  "camera_noise_overlap_episodes": 0,
+  "join_validation": {
+    "all_selected_parquet_files_exist": true,
+    "all_task_slugs_match_source_filenames": true,
+    "episode_indices_contiguous_and_ordered": true,
+    "rlds_and_lerobot_counts_equal": true
+  },
+  "domains": {
+    "camera_view": {
+      "episodes": 2871,
+      "frames": 447040,
+      "tasks": 40
+    },
+    "env": {
+      "episodes": 2876,
+      "frames": 449053,
+      "tasks": 40
+    },
+    "language": {
+      "episodes": 2872,
+      "frames": 447436,
+      "tasks": 40
+    },
+    "light": {
+      "episodes": 2876,
+      "frames": 449053,
+      "tasks": 40
+    },
+    "noise": {
+      "episodes": 2852,
+      "frames": 445454,
+      "tasks": 40
+    }
+  },
+  "splits": {
+    "camera_only": {
+      "episode_ids_sha256": "919564b465468731bc926f3aef7ec58eefc5d3331c15f5e5e00292cfc2dbe53c",
+      "episodes": 2871,
+      "first_episode_id": 4,
+      "frames": 447040,
+      "last_episode_id": 14345,
+      "source_domain": "camera_view",
+      "tasks": 40
+    },
+    "noise_only": {
+      "episode_ids_sha256": "ce97a8b66de9dc01f25f9c88ec7397e3af9bc4c64234bb842eb60ee06c7cd7f7",
+      "episodes": 2852,
+      "first_episode_id": 2,
+      "frames": 445454,
+      "last_episode_id": 14346,
+      "source_domain": "noise",
+      "tasks": 40
+    }
+  }
+}

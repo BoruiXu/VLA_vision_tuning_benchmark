@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.venv/
+third_party/
+models/
+runs/
+logs/
+cache/
+data/lerobot/
+data/rlds/
+data/libero_plus_domain_splits/
+outputs/

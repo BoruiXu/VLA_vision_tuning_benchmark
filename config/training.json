@@ -1,0 +1,87 @@
+{
+  "common": {
+    "optimizer": "AdamW",
+    "precision": "bf16",
+    "batch_size": 32,
+    "optimizer_updates": 12000,
+    "save_interval": 2000,
+    "lora_rank": 32,
+    "lora_alpha": 16,
+    "lora_dropout": 0,
+    "seed": 42
+  },
+  "models": {
+    "oft": {
+      "lr": 0.0005,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "weight_decay": 0.1,
+      "clip": null,
+      "warmup": 1000,
+      "min_lr": 0,
+      "execution_horizon": 8
+    },
+    "pi05": {
+      "lr": 5e-05,
+      "betas": [
+        0.9,
+        0.95
+      ],
+      "weight_decay": 1e-10,
+      "clip": 1,
+      "warmup": 1000,
+      "min_lr": 5e-05,
+      "execution_horizon": 5,
+      "training_action_horizon": 10
+    },
+    "internvla15": {
+      "lr": 5e-05,
+      "betas": [
+        0.9,
+        0.95
+      ],
+      "weight_decay": 0.01,
+      "clip": 1,
+      "warmup": 2000,
+      "min_lr": 5e-06,
+      "execution_horizon": 8
+    },
+    "nora15": {
+      "lr": 8e-05,
+      "betas": [
+        0.9,
+        0.95
+      ],
+      "weight_decay": 1e-08,
+      "clip": 1,
+      "warmup": 1000,
+      "min_lr": 0,
+      "execution_horizon": 5
+    },
+    "xvla": {
+      "lr": 0.0001,
+      "betas": [
+        0.9,
+        0.95
+      ],
+      "weight_decay": 0,
+      "clip": 1,
+      "warmup": 2000,
+      "min_lr": 1e-05,
+      "execution_horizon": 30,
+      "training_action_horizon": 30
+    }
+  },
+  "wiseft_alpha": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "delta": {
+    "coefficient": 1,
+    "temperature": 1,
+    "attention": "taylor"
+  }
+}

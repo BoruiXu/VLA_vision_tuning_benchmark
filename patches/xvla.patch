@@ -1,0 +1,209 @@
+diff --git a/datasets/domain_config.py b/datasets/domain_config.py
+index 9cb73c4..0d7e680 100644
+--- a/datasets/domain_config.py
++++ b/datasets/domain_config.py
+@@ -44,6 +44,7 @@ DATA_DOMAIN_ID = {
+     "RT1": 1,
+     "Calvin": 2,
+     "libero": 3,
++    "panda": 3,   # LIBERO-plus LeRobot corpus, same embodiment as libero
+     "widowx-air": 4,
+     "AIR-AGILEX-HQ": 5,
+     "robotwin2_abs_ee": 6,
+diff --git a/datasets/domain_handler/registry.py b/datasets/domain_handler/registry.py
+index e9fd3de..7194d2d 100644
+--- a/datasets/domain_handler/registry.py
++++ b/datasets/domain_handler/registry.py
+@@ -26,6 +26,7 @@ from .droid import DroidHandler
+ from .real_world import AIRAgilexHandler, AIRAgilexHQHandler, AIRBotHandler, WidowxAirHandler
+ from .simulations import BridgeHandler, LiberoHandler, VLABenchHandler, RobotWin2Handler, RobocasaHumanHandler, CalvinHandler, RT1Handler
+ from .lerobotv21 import LeRobotV21Handler
++from .libero_plus import LiberoPlusLeRobotHandler
+ from .x2robot import X2RobotHandler
+ 
+ # 1) Exact registry only (no heuristics)
+@@ -38,6 +39,7 @@ _REGISTRY: Dict[str, Type[DomainHandler]] = {
+     "lift2": LeRobotV21Handler,
+     
+     # LeRobot (parquet)
++    "panda": LiberoPlusLeRobotHandler,   # LIBERO-plus, robot_type in its info.json
+     "AGIBOT": AGIBOTLeRobotHandler,
+     "AGIBOT-challenge": AGIBOTLeRobotHandler,
+ 
+diff --git a/train.py b/train.py
+index 32fda88..4e0246a 100644
+--- a/train.py
++++ b/train.py
+@@ -15,6 +15,7 @@
+ # ------------------------------------------------------------------------------
+ 
+ import os
++import re
+ import math
+ import time
+ import json
+@@ -82,6 +83,9 @@ def get_args_parser():
+     # Optimizer
+     parser.add_argument("--learning_rate", type=float, default=1e-4)
+     parser.add_argument("--learning_coef", type=float, default=1.0, help="LR multiplier for soft prompts")
++    parser.add_argument("--trainable_regex", type=str, default="",
++                        help="If set, freeze every parameter whose name does not match. "
++                             "e.g. '^vlm\\.(vision_tower|image_proj|image_projection|image_pos_embed|visual_temporal_embed)' for the visual encoder alone.")
+     parser.add_argument("--weight_decay", type=float, default=0.0)
+     parser.add_argument("--betas", type=float, nargs=2, default=(0.9, 0.95))
+     parser.add_argument("--max_grad_norm", type=float, default=1.0)
+@@ -96,6 +100,9 @@ def get_args_parser():
+     # Logging / saving
+     parser.add_argument("--save_interval", type=int, default=50000)
+     parser.add_argument("--log_interval", type=int, default=20)
++    parser.add_argument("--resume_from_checkpoint", type=str, default="",
++                        help="Checkpoint directory to resume, or 'auto' for the newest valid "
++                             "ckpt-* below output_dir. Iters remains the final target step.")
+ 
+     # System
+     parser.add_argument("--seed", type=int, default=0)
+@@ -113,13 +120,37 @@ def set_seed(seed: int):
+     cudnn.benchmark = True
+ 
+ 
++def apply_trainable_regex(model: XVLA, pattern: str):
++    """Freeze everything the pattern does not match; return (trainable, frozen) param counts."""
++    if not pattern:
++        return sum(p.numel() for p in model.parameters()), 0
++    rx = re.compile(pattern)
++    train_n = frozen_n = 0
++    for name, prm in model.named_parameters():
++        keep = bool(rx.search(name))
++        prm.requires_grad_(keep)
++        if keep:
++            train_n += prm.numel()
++        else:
++            frozen_n += prm.numel()
++    if train_n == 0:
++        raise ValueError("trainable_regex %r matched no parameters" % pattern)
++    print("[freeze] pattern %r -> trainable %.2fM, frozen %.2fM (%.1f%% trainable)"
++          % (pattern, train_n / 1e6, frozen_n / 1e6, 100 * train_n / (train_n + frozen_n)),
++          flush=True)
++    return train_n, frozen_n
++
++
+ def build_optimizer(model: XVLA, lr: float, weight_decay: float, betas=(0.9, 0.95), lr_coef_soft=1.0):
+     """Split param groups by module type with different learning rates."""
+-    vlm_params = list(model.vlm.parameters())
+-    soft_prompt_params = list(model.transformer.soft_prompt_hub.parameters())
+-    action_params = list(model.transformer.action_decoder.parameters()) + list(model.transformer.action_encoder.parameters())
++    vlm_params = [p for p in model.vlm.parameters() if p.requires_grad]
++    soft_prompt_params = [p for p in model.transformer.soft_prompt_hub.parameters()
++                          if p.requires_grad]
++    action_params = [p for p in list(model.transformer.action_decoder.parameters())
++                     + list(model.transformer.action_encoder.parameters()) if p.requires_grad]
+     exclude = set(map(id, vlm_params + soft_prompt_params + action_params))
+-    transformer_core_params = [p for p in model.parameters() if id(p) not in exclude]
++    transformer_core_params = [p for p in model.parameters()
++                               if id(p) not in exclude and p.requires_grad]
+     param_groups = [
+         {"name": "vlm", "params": vlm_params, "lr": 0.0, "weight_decay": weight_decay},
+         {"name": "transformer_core", "params": transformer_core_params, "lr": 0.0, "weight_decay": weight_decay},
+@@ -172,6 +203,33 @@ def update_group_lrs(optim, step, args):
+             set_group_lr(optim, name, new_lr)
+ 
+ 
++def resolve_resume_checkpoint(value: str, output_dir: Path):
++    """Return a valid resumable checkpoint, or None when resume was not requested."""
++    if not value:
++        return None
++    if value != "auto":
++        candidates = [Path(value)]
++    else:
++        candidates = []
++        for path in output_dir.glob("ckpt-*"):
++            try:
++                step = int(path.name.rsplit("-", 1)[1])
++            except (IndexError, ValueError):
++                continue
++            candidates.append((step, path))
++        candidates = [path for _, path in sorted(candidates, reverse=True)]
++    for path in candidates:
++        state_path = path / "state.json"
++        accelerator_path = path / "training_state"
++        if state_path.is_file() and accelerator_path.is_dir():
++            state = json.loads(state_path.read_text())
++            if int(state.get("global_step", -1)) >= 0:
++                return path
++    if value == "auto":
++        return None
++    raise FileNotFoundError(f"checkpoint is not resumable: {value}")
++
++
+ # ============================================================
+ # Main Training
+ # ============================================================
+@@ -193,6 +251,9 @@ def main(args):
+     model = XVLA.from_pretrained(args.models)
+     processor = XVLAProcessor.from_pretrained(args.models)
+ 
++    # Freeze before the optimizer is built, so frozen tensors never enter its state.
++    apply_trainable_regex(model, args.trainable_regex)
++
+     # Iterable dataloader (don't wrap with prepare)
+     train_dataloader = create_dataloader(
+         batch_size=args.batch_size,
+@@ -215,6 +276,16 @@ def main(args):
+     # Training loop
+     model.train()
+     global_step, t0 = 0, time.time()
++    resume_dir = resolve_resume_checkpoint(args.resume_from_checkpoint, output_dir)
++    if resume_dir is not None:
++        state = json.loads((resume_dir / "state.json").read_text())
++        global_step = int(state["global_step"])
++        accelerator.load_state(str(resume_dir / "training_state"))
++        logger.info(f"Resumed model/optimizer/RNG at step {global_step} from {resume_dir}")
++    if global_step >= args.iters:
++        logger.info(f"Final target already reached: {global_step} >= {args.iters}")
++        accelerator.end_training()
++        return
+     logger.info(f"🚀 Start training for {args.iters} iterations | world_size={accelerator.num_processes}")
+     
+     for batch in train_dataloader:
+@@ -230,8 +301,9 @@ def main(args):
+         loss_dict: Dict[str, torch.Tensor] = model(**inputs)
+         loss = sum(loss_dict.values())
+         accelerator.backward(loss)
++        grad_norm = None
+         if args.max_grad_norm:
+-            accelerator.clip_grad_norm_(model.parameters(), args.max_grad_norm)
++            grad_norm = accelerator.clip_grad_norm_(model.parameters(), args.max_grad_norm)
+         optim.step()
+         optim.zero_grad()
+ 
+@@ -239,6 +311,8 @@ def main(args):
+         if global_step % args.log_interval == 0:
+             logs = {k: v.detach().float().item() for k, v in loss_dict.items()}
+             logs["loss_total"] = float(loss.detach().item())
++            if grad_norm is not None:
++                logs["grad_norm_pre_clip"] = float(grad_norm.detach().float().item())
+             logs.update({f"lr_{g['name']}": g["lr"] for g in optim.param_groups})
+             accelerator.log(logs, step=global_step)
+ 
+@@ -250,6 +324,7 @@ def main(args):
+                 logger.info(
+                     f"[{global_step}/{args.iters}] "
+                     f"loss={logs['loss_total']:.4f} "
++                    f"grad_norm={logs.get('grad_norm_pre_clip', float('nan')):.3f} "
+                     f"lr_core={logs['lr_transformer_core']:.2e} "
+                     f"lr_vlm={logs['lr_vlm']:.2e} ({dt:.2f}s/it) "
+                     f"USED_CPU={cpu_mem:.2e} GB "
+@@ -264,8 +339,12 @@ def main(args):
+                 accelerator.print(f"💾 Saving model to {save_dir}")
+                 accelerator.unwrap_model(model).save_pretrained(save_dir, safe_serialization=True)
+                 processor.save_pretrained(save_dir)
++                accelerator.save_state(os.path.join(save_dir, "training_state"))
+                 with open(os.path.join(save_dir, "state.json"), "w") as f:
+-                    json.dump({"global_step": global_step}, f)
++                    json.dump({"global_step": global_step,
++                               "batch_size": args.batch_size,
++                               "target_iters": args.iters,
++                               "seed": args.seed}, f, indent=2)
+         if global_step >= args.iters: break
+ 
+     accelerator.end_training()

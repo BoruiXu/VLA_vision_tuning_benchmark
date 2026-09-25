@@ -1,0 +1,35 @@
+{
+  "precision": "rounded values reported in manuscript Tables 1 and 6; not exact tensor counts",
+  "models": [
+    {
+      "model": "oft",
+      "vision_millions": 802.3,
+      "total_billions": 7.54,
+      "vision_share_percent": 10.64
+    },
+    {
+      "model": "pi05",
+      "vision_millions": 412.4,
+      "total_billions": 3.62,
+      "vision_share_percent": 11.4
+    },
+    {
+      "model": "internvla15",
+      "vision_millions": 331.4,
+      "total_billions": 2.69,
+      "vision_share_percent": 12.34
+    },
+    {
+      "model": "nora15",
+      "vision_millions": 668.7,
+      "total_billions": 3.99,
+      "vision_share_percent": 16.77
+    },
+    {
+      "model": "xvla",
+      "vision_millions": 362.8,
+      "total_billions": 0.88,
+      "vision_share_percent": 41.26
+    }
+  ]
+}

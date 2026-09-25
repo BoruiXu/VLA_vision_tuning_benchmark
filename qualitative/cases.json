@@ -1,0 +1,36 @@
+{
+  "camera": {
+    "figure": 10,
+    "model": "xvla",
+    "training_split": "camera_only",
+    "method": "dual_lora",
+    "training_seed": 42,
+    "task": "put the bowl on the plate view 330 15 100 0 0 initstate 0",
+    "suite": "libero_goal",
+    "task_id": 1039,
+    "episode_idx": 0,
+    "stock_success": false,
+    "tuned_success": true,
+    "stock_steps": 300,
+    "tuned_steps": 75,
+    "stock_video": "camera_stock.mp4",
+    "tuned_video": "camera_tuned.mp4"
+  },
+  "noise": {
+    "figure": 9,
+    "model": "xvla",
+    "training_split": "noise_only",
+    "method": "dual_lora",
+    "training_seed": 42,
+    "task": "put the bowl on the plate view 0 0 100 0 0 initstate 0 noise 16",
+    "suite": "libero_goal",
+    "task_id": 1822,
+    "episode_idx": 0,
+    "stock_success": false,
+    "tuned_success": true,
+    "stock_steps": 300,
+    "tuned_steps": 73,
+    "stock_video": "noise_stock.mp4",
+    "tuned_video": "noise_tuned.mp4"
+  }
+}

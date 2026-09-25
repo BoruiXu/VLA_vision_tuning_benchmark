@@ -1,0 +1,10 @@
+--- a/src/openpi/training/config.py
++++ b/src/openpi/training/config.py
+@@ -481,6 +481,7 @@
+ 
+     # Optional path to a PyTorch checkpoint to load weights from.
+     pytorch_weight_path: str | None = None
++    pytorch_trainable_regex: str = ""
+ 
+     # Precision for PyTorch training.
+     pytorch_training_precision: Literal["bfloat16", "float32"] = "bfloat16"
