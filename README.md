@@ -4,7 +4,7 @@
 
 Does adapting the vision encoder to one distribution shift compromise robustness to other shifts?
 
-This anonymous artifact contains the training extensions, evaluation adapters, episode-level outcomes, and statistical analysis used in the paper. It covers OpenVLA-OFT, π0.5, InternVLA-A1.5, NORA-1.5, and X-VLA. Only experiments used in the accompanying manuscript are included.
+This artifact contains the training extensions, evaluation adapters, episode-level outcomes, and statistical analysis used in the paper. It covers OpenVLA-OFT, π0.5, InternVLA-A1.5, NORA-1.5, and X-VLA. Only experiments used in the accompanying manuscript are included.
 
 ## Start with the results
 
